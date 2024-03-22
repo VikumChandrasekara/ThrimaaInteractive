@@ -36,35 +36,35 @@ render() {
                 <li> <NavLink
                 exact="true"
                 className={`nav-link ${this.state.activeLink === 'home' ? 'active' : ''}`}
-                to={'/'}
+                to={'/ThrimaaInteractive/'}
                 onClick={() => this.handleClick('home')}
               >
                 Home
               </NavLink></li>
                 <li><NavLink
                 className={`nav-link ${this.state.activeLink === 'services' ? 'active' : ''}`}
-                to={'/services'}
+                to={'/ThrimaaInteractive/services'}
                 onClick={() => this.handleClick('services')}
               >
                 Services
               </NavLink></li>
                 <li><NavLink
                 className={`nav-link ${this.state.activeLink === 'portfolio' ? 'active' : ''}`}
-                to={'/portfolio'}
+                to={'/ThrimaaInteractive/portfolio'}
                 onClick={() => this.handleClick('portfolio')}
               >
                 Portfolio
               </NavLink></li>
                 <li><NavLink
                 className={`nav-link ${this.state.activeLink === 'blogs' ? 'active' : ''}`}
-                to={'/blogs'}
+                to={'/ThrimaaInteractive/blogs'}
                 onClick={() => this.handleClick('blogs')}
               >
                 Blogs
               </NavLink></li>
                 <li><NavLink
                 className={`nav-link ${this.state.activeLink === 'about' ? 'active' : ''}`}
-                to={'/about'}
+                to={'/ThrimaaInteractive/about'}
                 onClick={() => this.handleClick('about')}
               >
                 About
@@ -75,7 +75,7 @@ render() {
             </div>
             </motion.div>
             <motion.div  variants={itemVariants}>
-            <NavLink to='/contact' onClick={() => this.handleClick('contact')}>
+            <NavLink to='/ThrimaaInteractive/contact' onClick={() => this.handleClick('contact')}>
             <button className={`msgButton ${this.state.activeLink === 'contact' ? 'active' : ''}`}>
               <span>Leave a Message</span>
             </button>

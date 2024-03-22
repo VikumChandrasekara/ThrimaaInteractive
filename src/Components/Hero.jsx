@@ -43,7 +43,7 @@ function Hero() {
         visible
         }}
       >Thrimaa Interactive: The Gateway to Digital Creativity.</motion.p>
-      <NavLink to="/portfolio" onClick={() => this.handleClick('portfolio')}>
+      <NavLink to="/ThrimaaInteractive/portfolio" onClick={() => this.handleClick('portfolio')}>
       <button className='heroBtn' 
       ><span>View our portfolio</span></button>
       </NavLink>

@@ -38,7 +38,7 @@ const WhatWeOffer = () => {
         <motion.div className={`card card1`}
         variants={itemVariants}
         >
-            <NavLink  to={'/web-developments'} onClick={() => this.handleClick('services')}>
+            <NavLink  to={'/ThrimaaInteractive/web-developments'} onClick={() => this.handleClick('services')}>
                 <div className='container'>
                 <Lottie className='icon1' animationData={Web} />
                 </div>
@@ -51,7 +51,7 @@ const WhatWeOffer = () => {
         <motion.div className='card card2'
          variants={itemVariants}
         >
-            <NavLink  to={'/game-developments'} onClick={() => this.handleClick('services')}>
+            <NavLink  to={'/ThrimaaInteractive/game-developments'} onClick={() => this.handleClick('services')}>
                 <div className='container'>
                 <Lottie className='icon1' animationData={GD} />
                 </div>
@@ -64,7 +64,7 @@ const WhatWeOffer = () => {
         <motion.div className='card card3'
          variants={itemVariants}
         >
-            <NavLink  to={'/ar-developments'} onClick={() => this.handleClick('services')}>
+            <NavLink  to={'/ThrimaaInteractive/ar-developments'} onClick={() => this.handleClick('services')}>
                 <div className='container'>
                 <Lottie className='icon1' animationData={AR} />
                 </div>
