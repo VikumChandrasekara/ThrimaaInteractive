@@ -2,7 +2,7 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import HeroAnimation from '../assets/animations/HeroAnimation.json'
 import Lottie from 'lottie-react'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 
 const visible = { opacity: 1, y: 0, transition: { duration: 0.5 } };
@@ -43,10 +43,10 @@ function Hero() {
         visible
         }}
       >Thrimaa Interactive: The Gateway to Digital Creativity.</motion.p>
-      <NavLink to="/ThrimaaInteractive/portfolio" onClick={() => this.handleClick('portfolio')}>
+      <Link to="/ThrimaaInteractive/portfolio" onClick={() => this.handleClick('portfolio')}>
       <button className='heroBtn' 
       ><span>View our portfolio</span></button>
-      </NavLink>
+      </Link>
       </motion.h1>
       <motion.div className='animation-div'
         variants={{

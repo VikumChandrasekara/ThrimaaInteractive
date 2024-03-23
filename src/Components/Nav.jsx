@@ -17,7 +17,11 @@ class Nav extends Component {
     state = { clicked: false, activeLink: '' };
 
     handleClick = (link) => {
-      this.setState({ clicked: !this.state.clicked, activeLink: link });
+      if (this.state.activeLink !== link) {
+        this.setState({ clicked: false, activeLink: link });
+      } else {
+        this.setState({ clicked: !this.state.clicked });
+      } 
     };
 
 render() {
