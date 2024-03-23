@@ -7,7 +7,7 @@ import WhatWeOffer from './Components/WhatWeOffer'
 import WhyThrimaa from './Components/WhyThrimaa'
 import {BrowserRouter , Route ,Routes} from 'react-router-dom';
 import About from './Components/About'
-import Portfolio from './Components/Portfolio'
+import Portfolio from '@components/Portfolio.jsx'
 import Blogs from './Components/Blogs'
 import Contact from './Components/Contact'
 import WebDev from './Components/WebDev'
