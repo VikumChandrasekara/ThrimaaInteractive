@@ -19,19 +19,19 @@ import ScrollToTop from './Components/ScrollToTop'
 function App() {
   return(
    <div>
-    <BrowserRouter >
+    <BrowserRouter basename='/ThrimaaInteractive/'>
     <ScrollToTop>
     <Nav />
     <Routes>
-    <Route path='/ThrimaaInteractive' element={[ <Hero /> , <WhatWeOffer /> , <WhyThrimaa />]} />
-    <Route path='/ThrimaaInteractive/portfolio' element={[ <Portfolio />]} />
-    <Route path='/ThrimaaInteractive/blogs' element={[ <Blogs />]} />
-    <Route path='/ThrimaaInteractive/services' element={[ <Services />]} />
-    <Route path='/ThrimaaInteractive/about' element={[ <About />]} />
-    <Route path='/ThrimaaInteractive/contact' element={[ <Contact />]} />
-    <Route path='/ThrimaaInteractive/web-developments' element={[ <WebDev />]} />
-    <Route path='/ThrimaaInteractive/game-developments' element={[ <GameDev />]} />
-    <Route path='/ThrimaaInteractive/ar-developments' element={[ <ARDev />]} />
+    <Route path='/' exact element={[ <Hero /> , <WhatWeOffer /> , <WhyThrimaa />]} />
+    <Route path='/portfolio' element={[ <Portfolio />]} />
+    <Route path='/blogs' element={[ <Blogs />]} />
+    <Route path='/services' element={[ <Services />]} />
+    <Route path='/about' element={[ <About />]} />
+    <Route path='/contact' element={[ <Contact />]} />
+    <Route path='/web-developments' element={[ <WebDev />]} />
+    <Route path='/game-developments' element={[ <GameDev />]} />
+    <Route path='/ar-developments' element={[ <ARDev />]} />
     </Routes>
     <Footer />
     </ScrollToTop>
