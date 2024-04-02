@@ -5,7 +5,7 @@ import Hero from './Components/Hero'
 import './App.css'
 import WhatWeOffer from './Components/WhatWeOffer'
 import WhyThrimaa from './Components/WhyThrimaa'
-import {BrowserRouter , Route ,Routes} from 'react-router-dom';
+import {HashRouter , Route ,Routes} from 'react-router-dom';
 import About from './Components/About'
 import Portfolio from './Components/Portfolio'
 import Blogs from './Components/Blogs'
@@ -19,7 +19,7 @@ import ScrollToTop from './Components/ScrollToTop'
 function App() {
   return(
    <div>
-    <BrowserRouter>
+    <HashRouter>
     <ScrollToTop>
     <Nav />
     <Routes>
@@ -35,7 +35,7 @@ function App() {
     </Routes>
     <Footer />
     </ScrollToTop>
-    </BrowserRouter>
+    </HashRouter>
 
  
 
