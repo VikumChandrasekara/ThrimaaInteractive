@@ -19,7 +19,7 @@ import ScrollToTop from './Components/ScrollToTop'
 function App() {
   return(
    <div>
-    <BrowserRouter basename='/ThrimaaInteractive/'>
+    <BrowserRouter>
     <ScrollToTop>
     <Nav />
     <Routes>
