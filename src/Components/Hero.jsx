@@ -45,7 +45,7 @@ function Hero() {
       >Thrimaa Interactive: The Gateway to Digital Creativity.</motion.p>
       <Link to="/portfolio" onClick={() => this.handleClick('portfolio')}>
       <button className='heroBtn' 
-      ><span>View our portfolio</span></button>
+      ><span>View portfolio</span></button>
       </Link>
       </motion.h1>
       <motion.div className='animation-div'
